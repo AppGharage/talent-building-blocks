@@ -4,16 +4,25 @@ Date: 09-10-18 */
 html body { background-color: #F3F3F3; }
 .content-area { background-color: #fff; box-shadow: 0 10px 30px -10px #777; border-radius: 7px;  }
 .no-padding { padding: 0px !important; }
-.nomargin { margin: 0px !important; }
+.no-margin { margin: 0px !important; }
 .space-20 { padding-top: 20px !important; }
 .space-5 { padding-top: 5px !important; }
 .spacer { margin: 5px !important; }
-.debug * { outline: 1px solid red !important; }
+.debug * { outline: 1px dashed red !important; }
 .profile-image { width: 40px; height: 40px; border-radius: 6px; }
 .padding-5 { padding: 5px !important; }
 .padding-10 { padding: 10px !important; }
 .padding-20 { padding: 20px !important; }
 .margin-left { margin-left: 50px !important; }
 .margin-right { margin-right: 50px !important; }
-.nav-item a { display: block; padding-bottom: 8px; letter-spacing: .5px;}
+.nav-item a { display: block; padding-bottom: 8px; letter-spacing: 0.5px; color: #000;}
+.statistics-section { display: flex; flex-direction: row; margin-right: 20px; justify-content: center;}
+.stat-one, .stat-two, .stat-three { margin: 0 50px; }
+.stat-label { margin-top: -3px; color: #adadad; font-size: 18px; font-weight: 400; }
+.value { font-weight: 900; font-size: 46px; }
 .nav-heading { letter-spacing: 1px; }
+.center-text { text-align: center; }
+.left-text { text-align: left; }
+.right-text { text-align: right; }
+span { font-size: 16px; }
+.label-size { font-size: 18px; }
